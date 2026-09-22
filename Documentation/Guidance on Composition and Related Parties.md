@@ -149,6 +149,8 @@ A transaction view V is considered n-composed for a venue with FA PartyId X (`c(
 
 One way of thinking about it is simply that V1 contributes to av(X, a1) as defined above. A picture also helps get the idea. Let’s consider a DvP submitted by a DEX with a side-leg that takes a cash fee:
 
+![](./b4ce8037-1091-457d-8e51-cb9957150ae6.png)
+
 The DvP root is considered 2-composed as it has two descendants with independent app FAs a1 and a2. The fee leg is considered 1-composed as it has a single descendant with an independent FA a1.
 
 For a given period of time we can now measure the composition factor of the app by averaging over size:
